@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load the trained XGBoost model and features
-model = joblib.load(r'C:\Users\User\Documents\INTERNSHIP\streamlit_loan\xgb_delinquency_model.pkl')
-trained_features = joblib.load(r'C:\Users\User\Documents\INTERNSHIP\streamlit_loan\xgb_model_features.pkl')
+model = joblib.load('xgb_delinquency_model.pkl')
+trained_features = joblib.load('xgb_model_features.pkl')
 
 # App title
 st.title("Loan Delinquency Prediction App")
